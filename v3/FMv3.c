@@ -9,7 +9,7 @@
 #include<readline/history.h>
 // #include<errno.h>
 
-#define buf_size 4095
+#define buf_size (4*1024*1024)
 
 char buffer [buf_size];
 
